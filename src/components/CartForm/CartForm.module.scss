@@ -1,0 +1,30 @@
+
+.formWrapper {
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  max-height: 70dvh;
+  overflow-y: auto;
+}
+.formItem {
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.btn {
+  position: fixed;
+  top: 0;
+  left: -400px;
+}
+
+.area {
+  max-height: 300px;
+}

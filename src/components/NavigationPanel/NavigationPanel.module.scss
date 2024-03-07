@@ -1,0 +1,18 @@
+.list {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.divider {
+  height: 30px;
+  width: 2px;
+  background-color: #6e6d6d;
+}
+

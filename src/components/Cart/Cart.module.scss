@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  overflow-y: auto;
+  width: 55%;
+  height: 70dvh;
+  max-height: 70dvh;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.message {
+  font-size: 20px;
+  color: darkred;
+}

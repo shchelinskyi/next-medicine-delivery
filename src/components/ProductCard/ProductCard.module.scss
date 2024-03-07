@@ -1,0 +1,38 @@
+.card {
+  width: 250px;
+  position: relative;
+}
+
+.imgWrapper {
+  border: 1px solid #e1dddd;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price {
+  margin-bottom: 5px;
+}
+
+.favoriteIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 24px;
+  color: red;
+}
