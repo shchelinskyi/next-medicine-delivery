@@ -12,7 +12,9 @@ import s from "./page.module.scss";
 const ShoppingCartPage = () => {
 
     const total = useAppSelector(state => state.cart.total);
+    const cartProducts = useAppSelector(state => state.cart.cartItems);
     const formRef:MutableRefObject<CartFormType | null> = useRef(null);
+
 
     const handleSubmitOutside = () => {
         if (formRef.current) {
@@ -28,7 +30,7 @@ const ShoppingCartPage = () => {
             </div>
             <div className={s.totalBlockContent}>
                 <div className={s.total}>Total Price: {total} UAH</div>
-                <Button type="primary" onClick={handleSubmitOutside}>
+                <Button type="primary" disabled={cartProducts.length === 0} onClick={handleSubmitOutside}>
                     Submit
                 </Button>
             </div>
